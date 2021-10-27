@@ -1,10 +1,10 @@
 import React from "react";
 
-const functionComponent = () => {
+const functionComponent = (props) => {
 
     return (
 
-        <li> SeuNome tratá batata-frita</li>
+        <li> {props.nome} trará {props.tarefa}</li>
     )
 }
 
