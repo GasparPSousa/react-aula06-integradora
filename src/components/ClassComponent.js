@@ -6,7 +6,7 @@ export default class ClassComponent extends Component {
 
         return (
             
-            <li>{this.props.nome} {this.props.estaNaLista ? "está" : "não está"} convidado para a festa </li>
+            <li>{this.nome} {this.estaNaLista ? "está" : "não está"} convidado para a festa </li>
         
         )
     }
