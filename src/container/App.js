@@ -9,7 +9,7 @@ function App() {
       <ClassComponent nome="Nicolas" estaNaLista={true} />
       <ClassComponent nome="Pedro" estaNaLista={false} />
       <ClassComponent nome="Carolina" estaNaLista={true} />
-      <h3>Tarefa: </h3>
+      <h3>Tarefas: </h3>
       <FunctionComponent nome="Nicolas"  tarefa="batata-frita" />
       <FunctionComponent nome="Pedro"  tarefa="pizza" />
       <FunctionComponent nome="Carolina"  tarefa="bebidas" />
