@@ -7,3 +7,5 @@ const functionComponent = () => {
         <li> SeuNome tratá batata-frita</li>
     )
 }
+
+export default functionComponent
